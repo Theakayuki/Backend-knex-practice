@@ -22,6 +22,22 @@ This is a partial application that the student will complete to get all the test
 
 ## Exercise
 
+Data is stored in the `todo` table. The table has the following columns:
+| Column Name | Data Type |
+| ----------- | --------- |
+| id | integer |
+| title | text |
+| completed | boolean (default false) |
+
+Expect POST and PUT requests to have a body with the following format:
+```json
+{
+  "title": "string",
+}
+```
+
+Completed will not be addressed in this exercise.
+
 1. Add the GET (all) endpoint.
 2. Add the POST endpoint.
 3. Add the GET (single) endpoint.

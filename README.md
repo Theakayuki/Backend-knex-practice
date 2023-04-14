@@ -39,6 +39,8 @@ Expect POST and PUT requests to have a body with the following format:
 
 Completed will not be addressed in this exercise.
 
+It is recommended to branch off of master and create a new branch for each attempt. So that you can return to start and make a new branch easily.
+
 1. Add the **GET** (all) endpoint. expecting a array, status `200 if good`
 2. Add the **POST** endpoint. expecting a object, status `201 if good`, and `400 if bad body`
 

@@ -6,10 +6,9 @@
   "scripts": {
     "test": "mocha --require test/setup.js --watch",
     "dev": "nodemon src/server.js",
-    "migrate": "postgrator --config postgrator-config.js",
+    "migrate": "knex migrate:latest",
     "start": "nodemon src/server.js",
-    "predeploy": "npm audit",
-    "deploy": "git push heroku master"
+    "predeploy": "npm audit"
   },
   "dependencies": {
     "cors": "2.8.5",

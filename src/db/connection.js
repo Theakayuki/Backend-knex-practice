@@ -1,8 +1,4 @@
-require("dotenv").config();
-const { DB_URL } = require("../config");
-const knex = require("knex")({
-  client: "pg",
-  connection: DB_URL
-});
+const config = require('../../knexfile');
+const knex = require("knex")(config);
 
 module.exports = knex;

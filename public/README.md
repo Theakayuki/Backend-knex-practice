@@ -42,7 +42,7 @@ Completed will not be addressed in this exercise.
 2. Add the **POST** endpoint. expecting a object, status `201 if good`, and `400 if bad body`
 
 3. Add the **GET** (single) endpoint. expecting a object, status `200 if good`, and `404 if bad id`
-4. Add the **UPDATE** endpoint. expecting a object, status 200 if good, and `404 if bad id`, `400 if bad body`
-5. Add the **DELETE** endpoint. expecting a object, status 200 if good, and `404 if bad id`
+4. Add the **UPDATE** endpoint. expecting a object, status `200 if good`, and `404 if bad id`, `400 if bad body`
+5. Add the **DELETE** endpoint. expecting a object, status `204 if good`, and `404 if bad id`
 
 You have completed the task when all the unit tests pass.
